@@ -136,11 +136,7 @@ h1 {
     margin-top: 20px;
     margin-left: 350px; 
     margin-right: 250px; 
-    margin-bottom: 20px;
-}
-
-.session_banner .banner_register {
-    padding-bottom:20px;
+    margin-bottom: -80px;
 }
 
 /* style Text Session */
@@ -191,5 +187,64 @@ h2{
     padding:10px 20px;
     margin-top: 30px;
     margin-left: 120px;
+    cursor: pointer;
+}
+
+/* style Location Session */
+.session_location_image {
+    background: url(images/home/home-our-locations-bg.jpeg) no-repeat;
+    background-size: 1600px; 
+    margin-left: 10px;
+    margin-top: -200px;
+}
+
+.map {
+    margin-left: 800px;
+    margin-top: -600px;
+}
+
+.session_location_image .container_location {
+    margin:50px;
+    padding-left: 120px;
+    color: #ffffff;
+}
+
+h3{
+    font-size: 48px;
+    margin-left: -800px;
+    padding-bottom: 20px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+h4{
+    font-size: 28px;
+    margin-left: -800px;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.session_location_image .container_location .content {
+    margin-left: -800px;
+    text-align: center;
+}
+
+.location_button a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.location_button {
+    position: relative;
+    line-height: 20px;
+    border: 1px solid #03B1F4;
+    background-color: #03B1F4;
+    display: inline-block;
+    border-radius: 30px;
+    padding:10px 20px;
+    margin-left: 270px;
     cursor: pointer;
 }
