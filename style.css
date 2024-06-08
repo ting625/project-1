@@ -1,0 +1,195 @@
+/* style header area */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    width: 100%;
+    min-height: 80px;
+    background-color: #1A2E38;
+}
+
+
+/* style navigation */
+
+.logo {
+    margin-top: 0px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.nav {
+    background-color: #1A2E38;
+    height: 50%;
+    width:100%; 
+    }
+
+.nav ul {
+    position: absolute;
+    left:20vw;
+    top:0;
+    line-height: 60px;
+    }   
+
+.nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 18px;
+}
+
+.nav li a:visited {
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+.nav li a:active {
+    text-decoration: none;
+    color: #03B1F4;
+}
+
+ /* style sign-in button */
+
+.button a {
+    text-decoration: none;
+    color: #03B1F4;
+    text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.button {
+    position: absolute;
+    left:85vw;
+    top:0;
+    line-height: 20px;
+    background-color:#ffffff;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    border-radius: 20px;
+    padding:10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.session_hero_image {
+    background: url(images/home/home.jpeg) no-repeat;
+    background-size: 1800px; 
+    margin-top: -300px;
+    padding-bottom: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin: 300px 400px;
+    padding-top: 400px;
+    font-size: 50px;
+    color:#ffffff;
+    letter-spacing: 0.1px;
+}
+
+ /* style Hero Image button */
+
+.container_hero_btn {
+    margin-top:-250px;
+    margin-left:550px;
+}
+
+.hero_button a {
+    text-decoration: none;
+    color: #03B1F4;
+    text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.hero_button {
+    position: relative;
+    line-height: 20px;
+    background-color:#ffffff;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    border-radius: 30px;
+    padding:15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* style Banner */
+
+.session_banner {
+    margin-top: 20px;
+    margin-left: 350px; 
+    margin-right: 250px; 
+    margin-bottom: 20px;
+}
+
+.session_banner .banner_register {
+    padding-bottom:20px;
+}
+
+/* style Text Session */
+
+.session_text_image {
+    background: url(images/home/home-hands-on-teaching.jpeg) no-repeat;
+    background-size: 1800px; 
+    margin-left: -180px;
+    padding-bottom: 100px;
+}
+
+.session_text_image .container_text {
+    margin:100px 200px;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+h2{
+    padding: 20px 0px;
+}
+
+.session_text_image .container_text .content {
+    padding-bottom: 20px;
+}
+
+.session_text_image .container_text .lessons {
+    padding: 20px;
+}
+
+.session_text_image .container_text .lessons a {
+    color: #000000;
+}
+
+.text_button a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.text_button {
+    line-height: 20px;
+    border: 1px solid #03B1F4;
+    background-color: #03B1F4;
+    display: inline-block;
+    border-radius: 30px;
+    padding:10px 20px;
+    margin-top: 30px;
+    margin-left: 120px;
+    cursor: pointer;
+}
