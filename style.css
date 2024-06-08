@@ -194,13 +194,12 @@ h2{
 .session_location_image {
     background: url(images/home/home-our-locations-bg.jpeg) no-repeat;
     background-size: 1600px; 
-    margin-left: 10px;
-    margin-top: -200px;
+    margin-top: -180px;
 }
 
 .map {
-    margin-left: 800px;
-    margin-top: -600px;
+    margin-left: 820px;
+    margin-top: -610px;
 }
 
 .session_location_image .container_location {
