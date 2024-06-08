@@ -247,3 +247,62 @@ h4{
     margin-left: 270px;
     cursor: pointer;
 }
+
+
+/* style footer area 
+.footer_image {
+    background: url(images/footer/footer-bg.jpeg) no-repeat;
+    background-size: 1800px; 
+    margin-left: -180px;
+}
+*/
+
+.footer_logo {
+    margin-top: 0px;
+    margin-left: 800px;
+    padding-top: 80px;
+}
+
+footer .social .fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+
+footer .social .fa:hover {
+    opacity: 0.7;
+}
+
+footer .social .fa-linkedin {
+    background: #125688;
+    color: white;
+}
+
+footer .social .fa-facebook {
+    background: #1e90ff;
+    color: white;
+}
+
+footer .social .fa-twitter {
+    background: #00bfff;
+    color: white;
+}
+
+footer .social .fa-instagram {
+    background: #696969;
+    color: white;
+}
+
+footer .social .fa-yelp {
+    background: #b22222;
+    color: white;
+}
+
+footer .social .fa-youtube {
+    background: #b22222;
+    color: white;
+}
