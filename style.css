@@ -47,7 +47,7 @@ header {
 .nav li a {
     text-decoration: none;
     color:#ffffff;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .nav li a:visited {
@@ -70,7 +70,7 @@ header {
     color: #03B1F4;
     text-align: center;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .button {
@@ -115,7 +115,7 @@ h1 {
     color: #03B1F4;
     text-align: center;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .hero_button {
@@ -249,27 +249,29 @@ h4{
 }
 
 
-/* style footer area 
+/* style footer area */
 .footer_image {
     background: url(images/footer/footer-bg.jpeg) no-repeat;
-    background-size: 1800px; 
-    margin-left: -180px;
+    background-size: 1500px; 
 }
-*/
+
 
 .footer_logo {
     margin-top: 0px;
-    margin-left: 800px;
-    padding-top: 80px;
+    margin-left: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+/*style footer social media icon */
+
 footer .social .fa {
-    padding: 15px;
-    font-size: 15px;
+    padding: 15px ;
+    font-size: 14px;
     width: 15px;
     text-align: center;
     text-decoration: none;
-    margin: 0 4px;
+    margin: 0 2px;
     border-radius: 50%;
 }
 
@@ -306,3 +308,100 @@ footer .social .fa-youtube {
     background: #b22222;
     color: white;
 }
+
+footer .social {
+    margin-left: 1000px;
+    padding: 0px 20px;
+    padding-bottom: 40px;
+}
+
+/*style footer navigation*/
+
+.footer_nav {
+    height: 30%;
+    width:100%; 
+    font-weight: 600;
+}
+
+.footer_nav ul {
+    position: absolute;
+    line-height:30px;
+    padding-left: 5%;
+}
+ 
+
+.footer_nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    color:#000000;
+}
+
+.footer_nav li a {
+    text-decoration: underline;
+    color:#000000;
+    font-size: 14px;
+}
+
+.footer_nav li a:active {
+    text-decoration: underline;
+    color: #03B1F4;
+}
+
+/*style footer location list*/
+
+.footer_location {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 50px;
+    font-size: 14px;
+}
+
+.footer_location .copy {
+    font-weight: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer_location li a {
+    text-decoration: underline;
+    color:#000000;
+    font-size: 14px;
+}
+
+/*style disclamier*/
+
+#disclaimer .copy {
+    margin-left: 1000px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*style sponsors*/
+
+#footer_sponsors .image {
+    display: inline-block;
+    padding:0 0.5em;
+    padding-bottom: 100px;
+}
+
+.footer_bottom {
+    padding: 0 2.5em;
+    margin: 20px auto;
+}
+
+/*style horizontal line */
+
+hr {
+    border: 0.3px solid #cccccc;
+}
+
+
+
+
+
+
+
