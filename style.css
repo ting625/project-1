@@ -1,4 +1,4 @@
-/* style header area */
+/* style Header area */
 * {
     margin: 0px;
     padding: 0px;
@@ -17,7 +17,7 @@ header {
 }
 
 
-/* style navigation */
+/* style Header navigation */
 
 .logo {
     margin-top: 0px;
@@ -63,7 +63,7 @@ header {
     color: #03B1F4;
 }
 
- /* style sign-in button */
+ /* style Header sign-in button */
 
 .button a {
     text-decoration: none;
@@ -86,6 +86,8 @@ header {
     margin-top: 15px;
     cursor: pointer;
 }
+
+/* style Hero Image session*/
 
 .session_hero_image {
     background: url(images/home/home.jpeg) no-repeat;
@@ -130,7 +132,7 @@ h1 {
     cursor: pointer;
 }
 
-/* style Banner */
+/* style Banner session*/
 
 .session_banner {
     margin-top: 20px;
@@ -139,7 +141,7 @@ h1 {
     margin-bottom: -80px;
 }
 
-/* style Text Session */
+/* style Text session */
 
 .session_text_image {
     background: url(images/home/home-hands-on-teaching.jpeg) no-repeat;
@@ -171,6 +173,8 @@ h2{
     line-height: 150%;
 }
 
+/* style Text session button */
+
 .text_button a {
     text-decoration: none;
     color: #ffffff;
@@ -191,7 +195,7 @@ h2{
     cursor: pointer;
 }
 
-/* style Location Session */
+/* style Location session */
 .session_location_image {
     background: url(images/home/home-our-locations-bg.jpeg) no-repeat;
     background-size: 1600px; 
@@ -229,6 +233,8 @@ h4{
     text-align: center;
 }
 
+/* style Location session button */
+
 .location_button a {
     text-decoration: none;
     color: #ffffff;
@@ -264,7 +270,7 @@ h4{
     padding-bottom: 50px;
 }
 
-/*style footer social media icon */
+/*style footer social media icons */
 
 footer .social .fa {
     padding: 15px ;
@@ -372,7 +378,7 @@ footer .social {
     font-size: 14px;
 }
 
-/*style sponsors*/
+/*style footer sponsors*/
 
 #footer_sponsor{
     display: flex;
@@ -395,7 +401,7 @@ footer .social {
     text-align: center;
 }
 
-/*style horizontal line */
+/*style footer horizontal line */
 
 hr {
     border: 0.3px solid #cccccc;
