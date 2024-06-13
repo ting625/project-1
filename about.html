@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/shark-full.ico" />
+    <link rel="stylesheet" href="about.css" />
+
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- End -->
+
+    <title>Splashes</title>
+  </head>
+  <body class="">
+    <!-- Added d-flex and vh-100 classes -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbarmain">
+        <div class="container-fluid">
+          <!-- Added justify-content-end class -->
+
+          <img src="images/logo-small.png" alt="Logo" width="300px" />
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse navbarspacing"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav navtext">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="swimmlessons.html"
+                  >Swimming Lessons</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="swimmprograms.html"
+                  >swimming Programs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="adultprograms.html">Adult Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="myreg">
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#loginmodal"
+              >
+                Register / Sign In
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Modal -->
+    <div
+      class="modal fade modal-con"
+      id="loginmodal"
+      tabindex="-1"
+      aria-labelledby="registerModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="images/shark-full.png" alt="" class="modal-img" />
+            <h5 class="modal-title" id="registerModalLabel">Registration</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <label for="">Username<span>*</span></label>
+            <input type="email" />
+            <br />
+            <label for="">PassWord<span>*</span></label>
+            <input type="password" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary">Sign Up</button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-target="#registerModal"
+            >
+              Sign IN
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Registration -->
+    <div
+      class="modal fade modal-con"
+      id="registerModal"
+      tabindex="-1"
+      aria-labelledby="registerModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img src="images/shark-full.png" alt="" class="modal-img" />
+            <h5 class="modal-title" id="registerModalLabel">Registration</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <label for="">Name<span>*</span></label>
+            <input type="email" />
+            <br />
+            <label for="">Username<span>*</span></label>
+            <input type="email" />
+            <br />
+            <label for="">PassWord<span>*</span></label>
+            <input type="password" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary">Sign Up</button>
+            <button type="button" class="btn btn-primary">Sign IN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-img">
+      <img src="images/about-us-hero.jpeg" alt="" />
+      <h2>About Splashes</h2>
+    </div>
+
+    <div class="our-philosophy">
+      <h2>Our Philosophy</h2>
+
+      <div class="p-text">
+        <p style="margin-bottom: 1vw">
+          Our mission is to educate and motivate individuals to be safer and
+          learn proper swimming technique
+        </p>
+        <p>
+          We have chosen to share our love of swimming with children and believe
+          there is a swimmer in
+        </p>
+        <p>
+          every child. We pride ourselves on teaching the necessary skills
+          needed to become a
+        </p>
+        <p>comfortable, proficient swimmer right from the beginning</p>
+      </div>
+    </div>
+
+    <div class="our-philosophy pp2">
+      <h2>We Do A Prety Good Job</h2>
+
+      <div class="p-text">
+        <p>
+          Experience excellence through Splashes' award-winning programs where
+        </p>
+        <p>
+          safety, fast progress, and a fun environment come first. Join the swim
+          school
+        </p>
+        <p>that loves what they do and it shows</p>
+      </div>
+
+      <div
+        style="
+          color: #26aef2;
+          text-decoration: underline;
+          text-align: center;
+          margin: 3vw 0 5vw 0;
+        "
+      >
+        Hear What Families Are Saying About Us
+      </div>
+    </div>
+
+    <div class="all-awards">
+      <h2>Awards We've Won</h2>
+
+      <div>
+        <div>
+          <img
+            src="images/awards/colorado-parenting-family-fav2021.png"
+            alt=""
+          />
+          <img src="images/awards/bay-area-parent-gold2020.png" alt="" />
+          <img
+            src="images/awards/mla-swim-lessons-winner-2020-250x250.png"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            src="images/awards/colorado-parenting-family-fav2019.jpeg"
+            alt=""
+          />
+          <img src="images/awards/website-parenting-oc-2019.jpeg" alt="" />
+          <img
+            src="images/awards/colorado-parenting-family-fav2020.png"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img src="images/awards/bay-area-parent-2019.jpeg" alt="" />
+          <img
+            src="images/awards/gold-daisy-award-finalist-2018.jpeg"
+            alt=""
+          />
+          <img src="images/awards/best-of-la-kids-winner.jpeg" alt="" />
+        </div>
+
+        <div>
+          <img
+            class="lastimg"
+            src="images/awards/best-of-the-best-2018.jpeg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="footerx" id="nondisclaimer">
+      <img src="images/wave-small.png" alt="" />
+
+      <div class="all-icon">
+        <ul>
+          <li>About</li>
+          <li>Locations</li>
+          <li>FAQs</li>
+          <li>Contact</li>
+          <li>Register/SignIn</li>
+          <li>Careers</li>
+        </ul>
+
+        <div class="social">
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-yelp"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </div>
+
+      <div class="title-and-number">
+        <div>
+          <div class="title">Orange County</div>
+          <div class="number">(949) 450-0777</div>
+        </div>
+
+        <div>
+          <div class="title">San Diego County</div>
+          <div class="number">(760)603-9400</div>
+        </div>
+
+        <div>
+          <div class="title">Los Angeles County</div>
+          <div class="number">(626) 836-1200</div>
+        </div>
+
+        <div>
+          <div class="title">Northern California</div>
+          <div class="number">(408)279-1700</div>
+        </div>
+
+        <div>
+          <div class="title">Denver</div>
+          <div class="number">(720)344-7700</div>
+        </div>
+      </div>
+
+      <div class="four-iconsx">
+        <div class="left">
+          <img src="images/sponsors/footer-usssa-logo-2.png" alt="" />
+          <img src="images/sponsors/footer-ndpa-logo.png" alt="" />
+          <img src="images/sponsors/footer-member-issa-logo.png" alt="" />
+          <img
+            src="images/sponsors/footer-stop-drowning-now-logo.png"
+            alt=""
+          />
+        </div>
+
+        <div class="right">
+          <div>2022 Splashes.</div>
+
+          <div>All Rights Reserved</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
