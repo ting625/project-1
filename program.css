@@ -1,0 +1,242 @@
+/* Hero Section */
+#hero {
+    background: url('images/which-lesson-is-best.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0; 
+}
+
+#hero h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: 'Bodoni Moda', serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0; /* Ensure no margin */
+}
+
+/* Lessons Section */
+#lessons {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#lessons h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #1A2E38;
+    font-family: 'Bodoni Moda', serif;
+    margin-bottom: 20px;
+    margin-top: 0; /* Ensure no margin */
+}
+
+#lessons h2 {
+    font-size: 32px;
+    color: #1A2E38;
+    font-family: 'Bodoni Moda', serif;
+    margin-top: 20px;
+}
+
+#lessons p {
+    color: #757576;
+    margin-bottom: 6px;
+    line-height: 1.5;
+    font-weight: lighter;
+    align-items: left;
+}
+/* Swim Programs Section */
+#programs {
+    background: url('images/summer-swim-camps.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+#programs h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: 'Bodoni Moda', serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0; /* Ensure no margin */
+}
+
+/* Skills Section */
+#skills {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+#skills h1 {
+    font-size: 32px;
+    color: #444444;
+    font-family: 'Bodoni Moda', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#skills p {
+    color: #757576;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: lighter;
+    align-items: center;
+}
+
+/* Locations Section */
+#locations {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+#locations h2 {
+    font-size: 20px;
+    color: #444444;
+    font-family: 'Bodoni Moda', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#locations ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left
+    
+}
+
+#locations li {
+    margin-bottom: 10px;
+}
+
+#locations a {
+    color: #03B1F4;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 15px;
+    ;
+}
+
+#locations a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#adult {
+    background: url('images/lap-swimming.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+#adult h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: 'Bodoni Moda', serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0; /* Ensure no margin */
+}
+
+/* Skills Section */
+#lap {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+#lap h1 {
+    font-size: 32px;
+    color: #444444;
+    font-family: 'Bodoni Moda', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lap p {
+    color: #757576;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: lighter;
+    align-items: center;
+    text-align: left;
+}
+
+/* Locations Section */
+#findlap {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+#findlap h2 {
+    font-size: 20px;
+    color: #444444;
+    font-family: 'Bodoni Moda', serif;
+    margin-bottom: 20px;
+}
+
+#findlap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left
+
+}
+
+#findlap li {
+    margin-bottom: 10px;
+}
+
+#findlap a {
+    color: #03B1F4;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+#findlap a:hover {
+    text-decoration: underline;
+}
+
+/* Highlighted Text */
+.highlight {
+    font-weight: bold;
+    color: #03B1F4; /* Use the specific color you want for highlighting */
+}
+
+#lessons a {
+    color: #03B1F4;
+    font-weight: lighter;
+}
+
+#lessons a:hover {
+    text-decoration: underline;
+}
+
+
+
