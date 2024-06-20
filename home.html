@@ -12,6 +12,9 @@
 
 <!--Font Awesome-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
 
 </head>
     <body>
@@ -42,6 +45,106 @@
                 <a href="#" target="_blank">Register / Sign In</a>
             </button>
         </div>
+
+            <!--Hamburger Menu-->
+            <div class = "container">
+                <nav class="navbar navbar-expand-xl navbar-dark bg-transparent">
+                <div class="logo">
+                   <a class="navbar-brand" href="#"> <img src="images/logo-small.png" alt="Great Cliffs Logo" width="200"> </a>
+                </div>
+        
+                   <!-- Hamburger Menu -->
+                   <!-- Values for data-target and aria-controls must match id of div with the collapse class -->
+                   <button class = "navbar-toggler" type = "button" data-toggle = "collapse" 
+                   data-target = "#navbarContent" 
+                   aria-controls = "navbarContent" aria-expanded = "false" 
+                   aria-label = "Toggle navigation">
+                            
+                   <span class = "navbar-toggler-icon"></span>
+                   </button>
+        
+                   
+                   <div id="navbarContent" class="collapse navbar-collapse">
+                      <ul class="navbar-nav">
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">Swimming Lessons</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">Swim Programs</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locations</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Orange County</a>
+                                   <div class="Location">
+                                       <a href="#">Anaheim Hills @ LA Fitness</a>
+                                       <a href="#">Huntington Beach</a>
+                                       <a href="#">Irvine</a>
+                                       <a href="#">Yorba Linda @ LA Fitness</a>
+                                   </div>
+                                    
+                                    
+                                <a class="dropdown-item" href="#">Silicon Valley</a>
+                                    <div class="Location">
+                                        <a href="#">North San Jose @ City Sports Club</a>
+                                        <a href="#">San Jose-Almaden @ City Sports Club</a>
+                                        <a href="#">San Jose-Bascom</a>
+                                        <a href="#">San Jose-Blossom Hill @ City Sports Club</a>
+                                        <a href="#">Sunnyvale @ City Sports Club</a>
+                                    </div>
+                                   
+                            
+                                <a class="dropdown-item" href="#">Los Angeles County</a>
+                                <div class="Location">
+                                    <a href="#">Culver City @ LA Fitness</a>
+                                    <a href="#">Harbor City @ LA Fitness</a>
+                                </div>
+                               
+                                <a class="dropdown-item" href="#">San Francisco</a>
+                                <div class="Location">
+                                    <a href="#">San Francisco-20th Avenue @ City</a>
+                                    <a href="#">Sports Club</a>
+                                </div>
+
+                                <a class="dropdown-item" href="#">San Gabriel Valley</a>
+                                <div class="Location">
+                                    <a href="#">Alhambra-Fremont @ LA Fitness</a>
+                                    <a href="#">Arcadia @ LA Fitness</a>
+                                    <a href="#">Diamond Bar @ LA Fitness</a>
+                                    <a href="#">Pasadena</a>
+                                    <a href="#">West Covina @ LA Fitness</a>
+                                </div>
+
+                                <a class="dropdown-item" href="#">San Diego County</a>
+                                <div class="Location">
+                                    <a href="#">Carlsbad</a>
+                                    <a href="#">Poway @ LA Fitness</a>
+                                </div>
+
+                                <a class="dropdown-item" href="#">Alameda County</a>
+                                <div class="Location">
+                                    <a href="#">Hayward @ City Sports Club</a>
+                                </div>
+
+                                <a class="dropdown-item" href="#">Denver</a>
+                                <div class="Location">
+                                    <a href="#">Highlands Ranch</a>
+                                </div>
+                            </div>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                         </li>
+                      </ul>
+                      
+                   </div>
+                </nav>
+            </div>
+
+
     </header>
 
 <!--Main Content-->
@@ -188,5 +291,11 @@
 
                 </ul>
             </div>
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     </body>
 </html>

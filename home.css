@@ -1,10 +1,26 @@
+@media (min-width: 1200px) {
+    .container .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: 3rem;
+        padding-left: .5rem;
+        
+    }
+}
+
+.logo {
+    padding-right: 10%;
+}
+
+
+
+
+
 /* style Hero Image session*/
 
 .session_hero_image {
-    background: url(images/home/home.jpeg) no-repeat;
-    background-size: 1800px; 
-    margin-top: -300px;
-    padding-bottom: 300px;
+    background: url(images/home/home.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 
 h1 {
@@ -15,6 +31,39 @@ h1 {
     color:#ffffff;
     letter-spacing: 0.1px;
 }
+
+
+/* Hamburger Menu */
+
+.container .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.container .Location a{
+    display: block;
+    color: #03B1F4;
+    font-weight: 600;
+    padding-left: 3%;
+}
+
+.container .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 1rem 1.5em;
+    clear: both;
+    font-weight: 600;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+
+
+
+
 
  /* style Hero Image button */
 
