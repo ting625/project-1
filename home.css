@@ -361,3 +361,25 @@ h4{
     margin-left: 25%;
     cursor: pointer;
 }
+
+/* style award */
+
+.all-awards h2 {
+    text-align: center;
+    font-size: 3vw;
+    margin: 3vw 0;
+  }
+  
+  .all-awards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .all-awards img {
+    margin: 1px 20px;
+  }
+  .all-awards .lastimg {
+    width: 8vw;
+  }
+  
