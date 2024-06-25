@@ -5,192 +5,218 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splashes Homepage</title>
 
+
 <!--Link to CSS-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="home.css">
+
+
 
 
 <!--Font Awesome-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
+
 
 </head>
     <body>
 
- <!--Header-->   
+
+ <!--Header-->  
     <header>
-        <div class="main-header">
-            <!--logo-->
-            <div class="logo">
-                <a href="home.html"><img src="images/logo-small.png" alt="Splashes Logo" width="250"></a> 
-            </div>     
-
-            <!--Navigation-->
-            <nav class="nav">
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="swimlessons.html">Swimming Lessons</a></li>
-                    <li><a href="swimprograms.html">Swim Programs</a></li>
-                    <li><a href="adultprograms.html">Adult Programs</a></li>
-                    <li><a href="#">Locations</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        
-
-            <!--Button-->
-            <button class="button">
-                <a href="#" target="_blank">Register / Sign In</a>
-            </button>
+        <!--Hamburger Menu-->
+        <div class = "container">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-transparent">
+        <div class="logo">
+            <a class="navbar-brand" href="#"> <img src="images/logo-small.png" alt="Great Cliffs Logo" width="200"> </a>
         </div>
 
-            <!--Hamburger Menu-->
-            <div class = "container">
-                <nav class="navbar navbar-expand-xl navbar-dark bg-transparent">
-                <div class="logo">
-                   <a class="navbar-brand" href="#"> <img src="images/logo-small.png" alt="Great Cliffs Logo" width="200"> </a>
-                </div>
-        
-                   <!-- Hamburger Menu -->
-                   <!-- Values for data-target and aria-controls must match id of div with the collapse class -->
-                   <button class = "navbar-toggler" type = "button" data-toggle = "collapse" 
-                   data-target = "#navbarContent" 
-                   aria-controls = "navbarContent" aria-expanded = "false" 
-                   aria-label = "Toggle navigation">
-                            
-                   <span class = "navbar-toggler-icon"></span>
-                   </button>
-        
-                   
-                   <div id="navbarContent" class="collapse navbar-collapse">
-                      <ul class="navbar-nav">
-                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="#">Swimming Lessons</a>
-                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="#">Swim Programs</a>
-                         </li>
-                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locations</a>
-                            <div class="dropdown-menu" style="right: 0; left: auto;" aria-labelledby="navbarDropdown">
 
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-sm-6 col-12">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <a class="dropdown-item" href="#">Orange County</a>
-                                                    <a href="#">Anaheim Hills @ LA Fitness</a>
-                                                    <a href="#">Huntington Beach</a>
-                                                    <a href="#">Irvine</a>
-                                                    <a href="#">Yorba Linda @ LA Fitness</a>
-                                                </div>
-                                            </div>
+            <!-- Hamburger Menu -->
+            <!-- Values for data-target and aria-controls must match id of div with the collapse class -->
+            <button class = "navbar-toggler" type = "button" data-toggle = "collapse"
+            data-target = "#navbarContent"
+            aria-controls = "navbarContent" aria-expanded = "false"
+            aria-label = "Toggle navigation">
+                   
+            <span class = "navbar-toggler-icon"></span>
+            </button>
+
+
+           
+            <div id="navbarContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Swimming Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Swim Programs</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Adult Programs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locations</a>
+                    <div class="dropdown-menu" style="right: 0; left: auto;" aria-labelledby="navbarDropdown">
+
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a class="dropdown-item" href="#">Orange County</a>
+                                            <a href="#">Anaheim Hills @ LA Fitness</a>
+                                            <a href="#">Huntington Beach</a>
+                                            <a href="#">Irvine</a>
+                                            <a href="#">Yorba Linda @ LA Fitness</a>
                                         </div>
-                                        <div class="col-lg-4 col-sm-6 col-12">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <a class="dropdown-item" href="#">San Diego County</a>
-                                                    <a href="#">Carlsbad</a>
-                                                    <a href="#">Poway @ LA Fitness</a>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a class="dropdown-item" href="#">San Gabriel Valley</a>
+                                            <a href="#">Alhambra-Fremont @ LA Fitness</a>
+                                            <a href="#">Arcadia @ LA Fitness</a>
+                                            <a href="#">Diamond Bar @ LA Fitness</a>
+                                            <a href="#">Pasadena</a>
+                                            <a href="#">West Covina @ LA Fitness</a>
                                         </div>
-                                        <div class="col-lg-4 col-sm-6 col-12">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <a href="#">San Francisco-20th Avenue @ City</a>
-                                                    <a href="#">Sports Club</a>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a class="dropdown-item" href="#">Sillicon Valley</a>
+                                            <a href="#">North San Jose @ City Sports Club</a>
+                                            <a href="#">San Jose-Almaden @ City Sports Club</a>
+                                            <a href="#">San Jose-Bascom</a>
+                                            <a href="#">San Jose-Blossom Hill @ City Sports Club</a>
+                                            <a href="#">Sunnyvale @ City Sports Club</a>
                                         </div>
-                                        <div class="col-lg-4 col-sm-6 col-12">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <div class="card-body">
-                                                        <a class="dropdown-item" href="#">San Diego County</a>
-                                                        <a href="#">Carlsbad</a>
-                                                        <a href="#">Poway @ LA Fitness</a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a class="dropdown-item" href="#">San Diego County</a>
+                                            <a href="#">Carlsbed</a>
+                                            <a href="#">Poway @ LA Fitness</a>
                                         </div>
-                                        <div class="col-lg-4 col-sm-6 col-12">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    Column 5
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-sm-6 col-12">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    Column 6
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a class="dropdown-item" href="#">Los Angeles County</a>
+                                            <a href="#">Culver City @ LA Fitness</a>
+                                            <a href="#">Harbor City @ LA Fitness</a>
                                         </div>
                                     </div>
                                 </div>
 
+
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a class="dropdown-item" href="#">Alameda County</a>
+                                            <a href="#">Hayward @ City Sports Club</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a class="dropdown-item" href="#">San Francisco</a>
+                                        <a href="#">San Francisco-20th Avenue @ City Sports Club</a>
+                                    </div>
+                                </div>
                             </div>
-                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                         </li>
-                      </ul>
-                      
-                   </div>
-                </nav>
-            </div>
 
 
-    </header>
-
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a class="dropdown-item" href="#">Denver</a>
+                                            <a href="#">Highlands Ranch</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <div class="nav-button-wrap">
+                        <button class="button">
+                        <a href="#" target="_blank">Register / Sign In</a>
+                    </button>
+                    </div>
+                    </ul>
+                    </div>
+            </header>
 <!--Main Content-->
     <main class="main-content">
 
+
     <!--Hero Image-->
     <div class="session_hero_image">
-        <h1>Learning it the Right Way,<br>
-            Right from the Beginning</h1>
+        <div class="session_hero">
+           
+            <h1>Learning it the Right Way,<br>
+                Right from the Beginning</h1>
 
-        <!--Button-->
-        <div class="container_hero_btn">
-                <button class="hero_button">
-                    <a href="#" target="_blank">Informational Video</a>
-                </button>
 
-                <button class="hero_button">
-                    <a href="#" target="_blank">Swimvenger Video</a>
-                </button>
+            <!--Button-->
+            <div class="container_hero_btn">
+                    <button class="hero_button">
+                        <a href="#" target="_blank">Informational Video</a>
+                    </button>
+
+
+                    <button class="hero_button">
+                        <a href="#" target="_blank">Swimvenger Video</a>
+                    </button>
+            </div>
         </div>
     </div>
-        
+       
     <!--Banner-->
     <div class="session_banner">
         <div class="banner_register">
-        <img src="images/home/register-online-here-banner.png" alt="Splashes Logo" width="800">
+        <img src="images/home/register-online-here-banner.png" alt="Splashes Logo" >
         </div>
 
+
         <div class="banner_hiring">
-        <img src="images/home/ww-site-hiring-banner-resized.png" alt="Splashes Logo" width="800">
+        <img src="images/home/ww-site-hiring-banner-resized.png" alt="Splashes Logo">
         </div>
     </div>
-    
+   
     <!--Text-->
+
 
         <!--Background Image-->
         <div class="session_text_image">
+
 
             <div class="container_text">
                 <h2>Hands On Teaching</h2>
                 <p class="content">Splashes Swim School provides high quality swim <br>instruction and the ideal environment for learning <br>how to swim. Our swim instructors use specialized <br>“muscle memory” teaching techniques that help our <br> students progress at a quick rate. Grouped by age <br>and ability, our students benefit from swim classes<br>that offer personalized attention. It's never too late to <br>learn to swim!
                 </p>
+
 
                 <strong>Splashes Offers:</strong>
                 <ul class="lessons">
@@ -199,23 +225,28 @@
                     <li><a href="#">Parent & Me (Baby) Swimming Lessons </a>- Select Locations</li>
                 </ul>
 
+
                 <p class="content">Select locations also offer additional swim programs <br>such as swim competitions, swim teams, water <br>aerobics, aquatic therapy, swim camps and more! To <br>learn more about the Splashes Family Swim <br>School near you, select a location below.
 
+
                 </p>Ready to sign up?</p>
+
 
              <!--Button-->
             <div class="container_text_btn">
                 <button class="text_button">
                     <a href="#" target="_blank">REGISTER NOW</a>
                 </button>
-            </div>   
+            </div>  
         </div>
     </div>
 
+
     <!--Location-->
-    
+   
         <!--Background Image-->
         <div class="session_location_image">
+
 
         <div class="container_location">
             <h3>Find a Splashes<br> Swim School<br> near you</h3>
@@ -223,30 +254,36 @@
             <p class="content">Splashes Aquatics offers the finest professional swimming <br>lessons from 21 swim schools and aquatic centers in <br>California and Denver.</p>
         </div>  
 
+
         <!--Button-->
         <div class="container_location_btn">
             <button class="location_button">
                 <a href="#" target="_blank">Find a Location Near You</a>
             </button>
-        </div>     
+        </div>    
+
 
          <!--Map-->
          <div class="map">
             <img src="images/home/home-our-locations-map.png" alt="Location" width="600">
-         </div> 
+         </div>
     </div>
+
 
 <!--Footer-->
     <footer>
         <div class="footer">
 
+
             <!--Background Image-->
             <div class="footer_image">
 
+
                 <!--logo-->
                 <div class="footer_logo">
-                    <a href="#"><img src="images/footer/wave-small.png" alt="Splashes Footer Logo" width="350"></a> 
+                    <a href="#"><img src="images/footer/wave-small.png" alt="Splashes Footer Logo" width="350"></a>
                 </div>
+
 
                 <!--Navigation-->
                 <nav class="footer_nav">
@@ -260,6 +297,7 @@
                     </ul>
                 </nav>
 
+
                 <!--Social Media-->
                 <div class="social">
                     <a href="#" class="fa fa-linkedin"></a>
@@ -270,7 +308,9 @@
                     <a href="#" class="fa fa-youtube"></a>
                 </div>
 
+
                 <hr>
+
 
                 <!--Location List-->
                 <ul class="footer_location">
@@ -281,7 +321,9 @@
                     <li class="copy">Denver <a href="#"><br><br>(720) 344-7700</a></li>
                 </ul>
 
+
                 <hr>
+
 
                 <!--Sponsors-->
                 <ul id="footer_sponsors">
@@ -289,17 +331,21 @@
                     <li class="image"><img src="images/sponsors/footer-sponsors-logo-2.png" alt="NPDA sponsor"></li>
                     <li class="image"><img src="images/sponsors/footer-sponsors-logo-3.png" alt="ISSA sponsor"></li>
                     <li class="image"><img src="images/sponsors/footer-sponsors-logo-4.png" alt="STOP DROWNING NOW sponsor"></li>
-                
+               
                 <!--disclaimer-->
                     <div class="disclaimer"> &copy; 2022 Splashes. <br> All Rights Reserved</div>
+
 
                 </ul>
             </div>
 
- <!-- jQuery first, then Popper.js, then Bootstrap JS -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
     </body>
 </html>
+

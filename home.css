@@ -6,8 +6,166 @@
     }
 }
 
+@media (min-width: 1200px) {
+   .navbar-expand-xl .navbar-nav .dropdown-menu {
+       position: absolute;
+       width: 800px;
+       left: -300px;
+   }
+}
+
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+
+body {
+   font-family: 'Bodoni Moda', serif;
+}
+
+
+header {
+   width: 100%;
+   min-height: 80px;
+   background-color: #1A2E38;
+ }
+
+ 
+ .session_hero_image {
+   height: 50vh;
+   background: url(images/home/home.jpeg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   position: relative;
+ }
+ 
+
 .logo {
     padding-right: 10%;
+}
+
+
+/* Hamburger Menu */
+
+
+.navbar-dark .navbar-nav .show>.nav-link {
+   color: #ffffff;
+}
+
+
+.container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+
+.container .Location a{
+   display: block;
+   color: #03B1F4;
+   font-weight: 600;
+   padding-left: 3%;
+}
+
+
+.container .dropdown-item {
+   display: block;
+   width: 100%;
+   padding: 0.5rem 1.7em;
+   clear: both;
+   font-weight: 600;
+   color: #212529;
+   text-align: inherit;
+   white-space: nowrap;
+   background-color: transparent;
+   border: 0;
+}
+
+
+#navarDropdown {
+   display: flex;
+}
+
+
+.navbar-dark .navbar-nav .show>.nav-link:active {
+   background-color: white;
+   color: black;
+}
+
+
+.container .navbar-dark .navbar-nav .nav-link {
+   color: #ffffff;
+   padding: 10px;
+}
+
+
+.container .navbar-dark .navbar-nav .nav-link:hover {
+   color: #ffffff;
+   text-decoration: underline;
+}
+
+
+.container .navbar-dark .navbar-nav .nav-link:active {
+   text-decoration: none;
+   color: #03B1F4;
+}
+
+
+.dropdown-toggle::after {
+   display: none !important;
+}
+
+
+.container .dropdown-item {
+   display: block;
+   width: 100%;
+   padding: 0.5rem 0.1em;
+   clear: both;
+   font-weight: 700;
+   color: #212529;
+   text-align: inherit;
+   white-space: nowrap;
+   background-color: transparent;
+   border: 0;
+}
+
+
+.card-body a {
+   color: #03B1F4;
+   text-decoration: none;
+   background-color: transparent;
+   display: block;
+   font-weight: 600;
+}
+
+
+
+
+/* style Header sign-in button */
+
+
+.button a {
+   text-decoration: none;
+   color: #03B1F4;
+   text-align: center;
+   font-weight: 800;
+   font-size: 14px;
+}
+
+
+.button {
+   position: relative;
+   line-height: 20px;
+   background-color:#ffffff;
+   border: 1px solid #ffffff;
+   display: inline-block;
+   border-radius: 20px;
+   padding:10px 15px;
+   cursor: pointer;
 }
 
 

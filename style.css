@@ -5,9 +5,20 @@
 }
 
 
+@media (min-width: 1200px) {
+    .navbar-expand-xl .navbar-nav .dropdown-menu {
+        position: absolute;
+        width: 800px;
+        left: -300px;
+    }
+}
+
+
 body {
     font-family: 'Bodoni Moda', serif;
 }
+
+
 
 
 header {
@@ -17,83 +28,23 @@ header {
 }
 
 
-/* style Header navigation */
 
-.logo {
-    margin-top: 0px;
-    margin-left: 10px;
-    padding-top: 5px;
-}
 
-.nav {
-    background-color: #1A2E38;
-    height: 50%;
-    width:100%; 
-    }
 
-.nav ul {
-    position: absolute;
-    left:20vw;
-    top:0;
-    line-height: 60px;
-    }   
-
-.nav li {
-    list-style-type: none;
-    display: inline;
-    padding: 10px 20px;
-}
-
-.nav li a {
-    text-decoration: none;
-    color:#ffffff;
-    font-size: 16px;
-}
-
-.nav li a:visited {
-    text-decoration: none;
-}
-
-.nav li a:hover {
-    text-decoration: underline;
-}
-
-.nav li a:active {
-    text-decoration: none;
-    color: #03B1F4;
-}
-
- /* style Header sign-in button */
-
-.button a {
-    text-decoration: none;
-    color: #03B1F4;
-    text-align: center;
-    font-weight: 800;
-    font-size: 14px;
-}
-
-.button {
-    position: absolute;
-    left:85vw;
-    top:0;
-    line-height: 20px;
-    background-color:#ffffff;
-    border: 1px solid #ffffff;
-    display: inline-block;
-    border-radius: 20px;
-    padding:10px 15px;
-    margin-top: 15px;
-    cursor: pointer;
-}
 
 
 /* style footer area */
 
+
 .footer_image {
     background: url(images/footer/footer-bg.jpeg) no-repeat;
-    background-size: 1500px; 
+    width:100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
 }
+
+
 
 
 .footer_logo {
@@ -103,7 +54,9 @@ header {
     padding-bottom: 50px;
 }
 
+
 /*style footer social media icons */
+
 
 footer .social .fa {
     padding: 15px ;
@@ -115,39 +68,47 @@ footer .social .fa {
     border-radius: 50%;
 }
 
+
 footer .social .fa:hover {
     opacity: 0.7;
 }
+
 
 footer .social .fa-linkedin {
     background: #125688;
     color: white;
 }
 
+
 footer .social .fa-facebook {
     background: #1e90ff;
     color: white;
 }
+
 
 footer .social .fa-twitter {
     background: #00bfff;
     color: white;
 }
 
+
 footer .social .fa-instagram {
     background: #696969;
     color: white;
 }
+
 
 footer .social .fa-yelp {
     background: #b22222;
     color: white;
 }
 
+
 footer .social .fa-youtube {
     background: #b22222;
     color: white;
 }
+
 
 footer .social {
     margin-left: 1000px;
@@ -155,13 +116,16 @@ footer .social {
     padding-bottom: 40px;
 }
 
+
 /*style footer navigation*/
+
 
 .footer_nav {
     height: 30%;
-    width:100%; 
+    width:100%;
     font-weight: 600;
 }
+
 
 .footer_nav ul {
     position: absolute;
@@ -170,6 +134,7 @@ footer .social {
 }
  
 
+
 .footer_nav li {
     list-style-type: none;
     display: inline;
@@ -177,18 +142,22 @@ footer .social {
     color:#000000;
 }
 
+
 .footer_nav li a {
     text-decoration: underline;
     color:#000000;
     font-size: 14px;
 }
 
+
 .footer_nav li a:active {
     text-decoration: underline;
     color: #03B1F4;
 }
 
+
 /*style footer location list*/
+
 
 .footer_location {
     display: flex;
@@ -199,11 +168,13 @@ footer .social {
     font-size: 14px;
 }
 
+
 .footer_location .copy {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
+
 
 .footer_location li a {
     text-decoration: underline;
@@ -211,7 +182,9 @@ footer .social {
     font-size: 14px;
 }
 
+
 /*style footer sponsors*/
+
 
 #footer_sponsor{
     display: flex;
@@ -219,11 +192,14 @@ footer .social {
     align-items: center;
 }
 
+
 #footer_sponsors .image{
     display: inline-block;
     padding:20px;
 
+
 }
+
 
 #footer_sponsors .disclaimer {
     display: inline-block;
@@ -234,8 +210,13 @@ footer .social {
     text-align: center;
 }
 
+
 /*style footer horizontal line */
+
 
 hr {
     border: 0.3px solid #cccccc;
 }
+
+
+
