@@ -4,6 +4,13 @@
     padding: 0px;
 }
 
+@media (min-width: 1200px) {
+    .container .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: 3rem;
+        padding-left: .5rem;
+       
+    }
+}
 
 @media (min-width: 1200px) {
     .navbar-expand-xl .navbar-nav .dropdown-menu {
@@ -18,9 +25,6 @@ body {
     font-family: 'Bodoni Moda', serif;
 }
 
-
-
-
 header {
     width: 100%;
     min-height: 80px;
@@ -28,9 +32,138 @@ header {
 }
 
 
+/* Hamburger Menu */
 
 
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.container .Location a{
+    display: block;
+    color: #03B1F4;
+    font-weight: 600;
+    padding-left: 3%;
+}
+
+
+.container .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1.7em;
+    clear: both;
+    font-weight: 600;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+#navarDropdown {
+    display: flex;
+}
+
+
+.navbar-dark .navbar-nav .show>.nav-link:active {
+    background-color: white;
+    color: black;
+}
+
+
+.container .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+.container .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+.container .navbar-dark .navbar-nav .nav-link:active {
+    text-decoration: none;
+    color: #03B1F4;
+}
+
+
+.container .dropdown-toggle::after {
+    display: none !important;
+}
+
+
+.container .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.1em;
+    clear: both;
+    font-weight: 700 !important;
+    color: #212529 !important;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+.container .card-body a {
+    color: #03B1F4;
+    text-decoration: none;
+    background-color: transparent;
+    display: block;
+    font-weight: 600;
+}
+
+
+.container .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+}
+
+
+ /* style Header sign-in button */
+
+
+.button a {
+    text-decoration: none;
+    color: #03B1F4;
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+
+.button {
+    position: relative;
+    line-height: 20px;
+    background-color:#ffffff;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    border-radius: 20px;
+    padding:10px 15px;
+    cursor: pointer;
+}
 
 
 /* style footer area */
@@ -42,16 +175,25 @@ header {
     position: relative;
     background-position: center center;
     background-size: cover;
+    display:flex;
+    flex-direction:column;
 }
 
 
-
-
 .footer_logo {
-    margin-top: 0px;
-    margin-left: 600px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.social-wrapper {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -59,12 +201,12 @@ header {
 
 
 footer .social .fa {
-    padding: 15px ;
+    display: inline-block;
+    padding: 15px;
     font-size: 14px;
-    width: 15px;
     text-align: center;
     text-decoration: none;
-    margin: 0 2px;
+    margin: 0;
     border-radius: 50%;
 }
 
@@ -111,9 +253,9 @@ footer .social .fa-youtube {
 
 
 footer .social {
-    margin-left: 1000px;
-    padding: 0px 20px;
-    padding-bottom: 40px;
+    display: flex;
+
+
 }
 
 
@@ -128,9 +270,8 @@ footer .social {
 
 
 .footer_nav ul {
-    position: absolute;
     line-height:30px;
-    padding-left: 5%;
+    padding-left: 13%;
 }
  
 
@@ -186,28 +327,22 @@ footer .social {
 /*style footer sponsors*/
 
 
-#footer_sponsor{
+.footer_sponsors {
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 
-#footer_sponsors .image{
+.footer_sponsors .image{
     display: inline-block;
     padding:20px;
-
-
+    flex-direction: row;
 }
 
 
-#footer_sponsors .disclaimer {
-    display: inline-block;
-    padding-bottom: 45px;
-    padding-left: 500px;
-    margin-bottom: 30px;
-    font-size: 14px;
-    text-align: center;
+.disclaimer {
+    display:flex;
+    justify-content: left;
 }
 
 
@@ -217,6 +352,9 @@ footer .social {
 hr {
     border: 0.3px solid #cccccc;
 }
+
+
+
 
 
 

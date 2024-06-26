@@ -1,197 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splashes Homepage</title>
 
 
-<!--Link to CSS-->
+    <!--Link to CSS-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="home.css">
 
 
 
 
-<!--Font Awesome-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
 </head>
-    <body>
 
 
- <!--Header-->  
+<body>
+
+
+    <!--Header-->
     <header>
-        <!--Hamburger Menu-->
-        <div class = "container">
-        <nav class="navbar navbar-expand-xl navbar-dark bg-transparent">
-        <div class="logo">
-            <a class="navbar-brand" href="#"> <img src="images/logo-small.png" alt="Great Cliffs Logo" width="200"> </a>
-        </div>
+        <!--Location Hamburger Menu-->
+        <div class="container">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-transparent m-50">
+                <div class="logo">
+                    <a class="navbar-brand" href="home.html"> <img src="images/logo-small.png" alt="Great Cliffs Logo"
+                            width="200"> </a>
+                </div>
 
 
-            <!-- Hamburger Menu -->
-            <!-- Values for data-target and aria-controls must match id of div with the collapse class -->
-            <button class = "navbar-toggler" type = "button" data-toggle = "collapse"
-            data-target = "#navbarContent"
-            aria-controls = "navbarContent" aria-expanded = "false"
-            aria-label = "Toggle navigation">
-                   
-            <span class = "navbar-toggler-icon"></span>
-            </button>
+                <!-- Hamburger Menu -->
+                <!-- Values for data-target and aria-controls must match id of div with the collapse class -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
 
 
-           
-            <div id="navbarContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Swimming Lessons</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Swim Programs</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Adult Programs</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locations</a>
-                    <div class="dropdown-menu" style="right: 0; left: auto;" aria-labelledby="navbarDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
 
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <a class="dropdown-item" href="#">Orange County</a>
-                                            <a href="#">Anaheim Hills @ LA Fitness</a>
-                                            <a href="#">Huntington Beach</a>
-                                            <a href="#">Irvine</a>
-                                            <a href="#">Yorba Linda @ LA Fitness</a>
+
+
+                <div id="navbarContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="swimlessons.html">Swimming Lessons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="swimprograms.html">Swim Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="adultprograms.html">Adult Programs</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locations</a>
+                            <div class="dropdown-menu" style="right: 0; left: auto;" aria-labelledby="navbarDropdown">
+
+
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a class="dropdown-item" href="#">Orange County</a>
+                                                    <a href="#">Anaheim Hills @ LA Fitness</a>
+                                                    <a href="#">Huntington Beach</a>
+                                                    <a href="#">Irvine</a>
+                                                    <a href="#">Yorba Linda @ LA Fitness</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a class="dropdown-item" href="#">San Gabriel Valley</a>
+                                                    <a href="#">Alhambra-Fremont @ LA Fitness</a>
+                                                    <a href="#">Arcadia @ LA Fitness</a>
+                                                    <a href="#">Diamond Bar @ LA Fitness</a>
+                                                    <a href="#">Pasadena</a>
+                                                    <a href="#">West Covina @ LA Fitness</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a class="dropdown-item" href="#">Sillicon Valley</a>
+                                                    <a href="#">North San Jose @ City Sports Club</a>
+                                                    <a href="#">San Jose-Almaden @ City Sports Club</a>
+                                                    <a href="#">San Jose-Bascom</a>
+                                                    <a href="#">San Jose-Blossom Hill @ City Sports Club</a>
+                                                    <a href="#">Sunnyvale @ City Sports Club</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a class="dropdown-item" href="#">San Diego County</a>
+                                                    <a href="#">Carlsbed</a>
+                                                    <a href="#">Poway @ LA Fitness</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a class="dropdown-item" href="#">Los Angeles County</a>
+                                                    <a href="#">Culver City @ LA Fitness</a>
+                                                    <a href="#">Harbor City @ LA Fitness</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a class="dropdown-item" href="#">Alameda County</a>
+                                                    <a href="#">Hayward @ City Sports Club</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a class="dropdown-item" href="#">San Francisco</a>
+                                                    <a href="#">San Francisco-20th Avenue @ City Sports Club</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a class="dropdown-item" href="#"></a>
+                                                    <a href="#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-sm-6 col-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a class="dropdown-item" href="#">Denver</a>
+                                                    <a href="#">Highlands Ranch</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                               
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <a class="dropdown-item" href="#">San Gabriel Valley</a>
-                                            <a href="#">Alhambra-Fremont @ LA Fitness</a>
-                                            <a href="#">Arcadia @ LA Fitness</a>
-                                            <a href="#">Diamond Bar @ LA Fitness</a>
-                                            <a href="#">Pasadena</a>
-                                            <a href="#">West Covina @ LA Fitness</a>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <a class="dropdown-item" href="#">Sillicon Valley</a>
-                                            <a href="#">North San Jose @ City Sports Club</a>
-                                            <a href="#">San Jose-Almaden @ City Sports Club</a>
-                                            <a href="#">San Jose-Bascom</a>
-                                            <a href="#">San Jose-Blossom Hill @ City Sports Club</a>
-                                            <a href="#">Sunnyvale @ City Sports Club</a>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <a class="dropdown-item" href="#">San Diego County</a>
-                                            <a href="#">Carlsbed</a>
-                                            <a href="#">Poway @ LA Fitness</a>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <a class="dropdown-item" href="#">Los Angeles County</a>
-                                            <a href="#">Culver City @ LA Fitness</a>
-                                            <a href="#">Harbor City @ LA Fitness</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <a class="dropdown-item" href="#">Alameda County</a>
-                                            <a href="#">Hayward @ City Sports Club</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            <div class="col-lg-4 col-sm-6 col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <a class="dropdown-item" href="#">San Francisco</a>
-                                        <a href="#">San Francisco-20th Avenue @ City Sports Club</a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <a class="dropdown-item" href="#"></a>
-                                            <a href="#"></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <a class="dropdown-item" href="#">Denver</a>
-                                            <a href="#">Highlands Ranch</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
                         </li>
                         <div class="nav-button-wrap">
-                        <button class="button">
-                        <a href="#" target="_blank">Register / Sign In</a>
-                    </button>
-                    </div>
+                            <button class="button">
+                                <a href="#" target="_blank">Register / Sign In</a>
+                            </button>
+                        </div>
                     </ul>
-                    </div>
-            </header>
-<!--Main Content-->
+                </div>
+                        
+                <div class="myreg">
+                    <button
+                      type="button"
+                      class="btn1"
+                      data-bs-toggle="modal"
+                      data-bs-target="#loginmodal"
+                    >
+                      Register / Sign In
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+
+    <!-- Modal -->
+    <div
+    class="modal fade modal-con"
+    id="loginmodal"
+    tabindex="-1"
+    aria-labelledby="registerModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="../images/shark-full.png" alt="" class="modal-img" />
+          <h5 class="modal-title" id="registerModalLabel">Registration</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <label for="">Username<span>*</span></label>
+          <input type="email" />
+          <br />
+          <label for="">PassWord<span>*</span></label>
+          <input type="password" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary">Sign Up</button>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-target="#registerModal"
+          >
+            Sign IN
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Registration -->
+  <div
+    class="modal fade modal-con"
+    id="registerModal"
+    tabindex="-1"
+    aria-labelledby="registerModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/shark-full.png" alt="" class="modal-img" />
+          <h5 class="modal-title" id="registerModalLabel">Registration</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <label for="">Name<span>*</span></label>
+          <input type="email" />
+          <br />
+          <label for="">Username<span>*</span></label>
+          <input type="email" />
+          <br />
+          <label for="">PassWord<span>*</span></label>
+          <input type="password" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary">Sign Up</button>
+          <button type="button" class="btn btn-primary">Sign IN</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!--Main Content-->
     <main class="main-content">
 
 
-    <!--Hero Image-->
-    <div class="session_hero_image">
-        <div class="session_hero">
-           
-            <h1>Learning it the Right Way,<br>
-                Right from the Beginning</h1>
+        <!--Hero Image-->
+        <div class="session_hero_image">
+            <div class="session_hero">
 
 
-            <!--Button-->
-            <div class="container_hero_btn">
+                <h1>Learning it the Right Way,<br>
+                    Right from the Beginning</h1>
+
+
+                <!--Button-->
+                <div class="container_hero_btn">
                     <button class="hero_button">
                         <a href="#" target="_blank">Informational Video</a>
                     </button>
@@ -200,12 +305,28 @@
                     <button class="hero_button">
                         <a href="#" target="_blank">Swimvenger Video</a>
                     </button>
+                </div>
             </div>
         </div>
-    </div>
-       
-    <!--Banner-->
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <!--Banner-->
+        <!--    <div class="wrapper">
     <div class="session_banner">
+
+
         <div class="banner_register">
         <img src="images/home/register-online-here-banner.png" alt="Splashes Logo" >
         </div>
@@ -215,191 +336,267 @@
         <img src="images/home/ww-site-hiring-banner-resized.png" alt="Splashes Logo">
         </div>
     </div>
-   
-    <!--Text-->
+    </div>-->
 
 
-        <!--Background Image-->
-        <div class="session_text_image">
-
-
-            <div class="container_text">
-                <h2>Hands On Teaching</h2>
-                <p class="content">Splashes Swim School provides high quality swim <br>instruction and the ideal environment for learning <br>how to swim. Our swim instructors use specialized <br>“muscle memory” teaching techniques that help our <br> students progress at a quick rate. Grouped by age <br>and ability, our students benefit from swim classes<br>that offer personalized attention. It's never too late to <br>learn to swim!
-                </p>
-
-
-                <strong>Splashes Offers:</strong>
-                <ul class="lessons">
-                    <li><a href="#">Private Swimming Lessons</a> - All Locations</li>
-                    <li><a href="#">Semi-Private Swimming Lessons</a> - All Locations</li>
-                    <li><a href="#">Parent & Me (Baby) Swimming Lessons </a>- Select Locations</li>
-                </ul>
-
-
-                <p class="content">Select locations also offer additional swim programs <br>such as swim competitions, swim teams, water <br>aerobics, aquatic therapy, swim camps and more! To <br>learn more about the Splashes Family Swim <br>School near you, select a location below.
-
-
-                </p>Ready to sign up?</p>
-
-
-             <!--Button-->
-            <div class="container_text_btn">
-                <button class="text_button">
-                    <a href="#" target="_blank">REGISTER NOW</a>
-                </button>
-            </div>  
-        </div>
-    </div>
-
-
-    <!--Location-->
-   
-        <!--Background Image-->
-        <div class="session_location_image">
-
-
-        <div class="container_location">
-            <h3>Find a Splashes<br> Swim School<br> near you</h3>
-            <h4>Family Swim School Locations</h4>
-            <p class="content">Splashes Aquatics offers the finest professional swimming <br>lessons from 21 swim schools and aquatic centers in <br>California and Denver.</p>
-        </div>  
-
-
-        <!--Button-->
-        <div class="container_location_btn">
-            <button class="location_button">
-                <a href="#" target="_blank">Find a Location Near You</a>
-            </button>
-        </div>    
-
-
-         <!--Map-->
-         <div class="map">
-            <img src="images/home/home-our-locations-map.png" alt="Location" width="600">
-         </div>
-    </div>
-
-     <!--Awards-->
-    <div class="all-awards">
-        <h2>Awards We've Won</h2>
-  
-        <div>
-          <div>
-            <img
-              src="./images/awards/colorado-parenting-family-fav2021.png"
-              alt=""
-            />
-            <img src="./images/awards/bay-area-parent-gold2020.png" alt="" />
-            <img
-              src="./images/awards/mla-swim-lessons-winner-2020-250x250.png"
-              alt=""
-            />
-          </div>
-  
-          <div>
-            <img
-              src="./images/awards/colorado-parenting-family-fav2019.jpeg"
-              alt=""
-            />
-            <img src="./images/awards/website-parenting-oc-2019.jpeg" alt="" />
-            <img
-              src="./images/awards/colorado-parenting-family-fav2020.png"
-              alt=""
-            />
-          </div>
-  
-          <div>
-            <img src="./images/awards/bay-area-parent-2019.jpeg" alt="" />
-            <img
-              src="./images/awards/gold-daisy-award-finalist-2018.jpeg"
-              alt=""
-            />
-            <img src="./images/awards/best-of-la-kids-winner.jpeg" alt="" />
-          </div>
-  
-          <div>
-            <img
-              class="lastimg"
-              src="./images/awards/best-of-the-best-2018.jpeg"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-
-<!--Footer-->
-     <!-- Footer -->
-
-     <!--Footer-->
-     <footer>
-        <div class="footer">
-    
-            <!--Image-->
-            <div class="footer_image">
-    
-                <!--logo-->
-                <div class="footer_logo">
-                    <a href="#"><img src="images/footer/wave-small.png" alt="Splashes Footer Logo" width="350"></a> 
+        <!-- Register Online Banner -->
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center p-3">
+                <div class="col">
+                    <div class="session_banner">
+                        <img src="images/home/register-online-here-banner.png" alt="Splashes Logo"
+                            class="img-fluid mx-auto mb-3 d-block">
+                    </div>
+                    <div class="session_banner"><img src="images/home/ww-site-hiring-banner-resized.png"
+                            alt="Splashes Logo" class="img-fluid mx-auto d-block">
+                    </div>
                 </div>
-    
-                <!--Navigation-->
-                <nav class="footer_nav">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Locations</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Register/ Sign In</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </nav>
-    
-                <!--Social Media-->
-                <div class="social">
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-yelp"></a>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                </div>
-    
-                <hr>
-    
-                <!--Location List-->
-                
-                <ul class="footer_location">
-                    <li class="copy">Orange County <a href="#"><br><br>(949) 450-0777</a></li>
-                    <li class="copy">San Diego County <a href="#"><br><br>(760) 603-9400</a></li>
-                    <li class="copy">Los Angeles County <a href="#"><br><br>(626) 836-1200</a></li>
-                    <li class="copy">Northern California <a href="#"><br><br>(408) 279-1700</a></li>
-                    <li class="copy">Denver <a href="#"><br><br>(720) 344-7700</a></li>
-                </ul>
-    
-                <hr>
-    
-                <!--Sponsors-->
-                <ul id="footer_sponsors">
-                    <li class="image"><img src="images/sponsors/footer-sponsors-logo-1.png" alt="united states swim school sponsor"></li>
-                    <li class="image"><img src="images/sponsors/footer-sponsors-logo-2.png" alt="NPDA sponsor"></li>
-                    <li class="image"><img src="images/sponsors/footer-sponsors-logo-3.png" alt="ISSA sponsor"></li>
-                    <li class="image"><img src="images/sponsors/footer-sponsors-logo-4.png" alt="STOP DROWNING NOW sponsor"></li>
-                
-                <!--disclaimer-->
-                    <div class="disclaimer"> &copy; 2022 Splashes. <br> All Rights Reserved</div>
-    
-                </ul>
             </div>
-  
+        </div>
+        <!-- Banner end-->
 
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-    </body>
+
+
+        <!-- Hands-On Teaching
+        <div class="container-fluid session_text_image">
+            <div class="row p-4">
+                <div class="col-md-4 offset-md-2">
+                    <h2>Hands On Teaching</h2>
+                    <p class="content">Splashes Swim School provides high quality swim instruction and the ideal
+                        environment for learning how to swim. Our swim instructors use specialized “muscle memory”
+                        teaching techniques that help our students progress at a quick rate. Grouped by age and ability,
+                        our students benefit from swim classes that offer personalized attention. It's never too late to
+                        learn to swim!
+                    </p>
+                </div>
+
+
+                <div class="row p-4">
+                    <div class="col-md-4 offset-md-2">
+                        <strong>Splashes Offers:</strong>
+                        <ul class="lessons">
+                            <li><a href="#">Private Swimming Lessons</a> - All Locations</li>
+                            <li><a href="#">Semi-Private Swimming Lessons</a> - All Locations</li>
+                            <li><a href="#">Parent & Me (Baby) Swimming Lessons </a>- Select Locations</li>
+                        </ul>
+                    </div>
+        -->
+
+
+
+
+
+
+                    <!--Background Image-->
+                    <div class="session_text_image">
+                        <div class="wrapper">
+
+
+                            <div class="container_text">
+                                <h2>Hands On Teaching</h2>
+                                <p class="content">Splashes Swim School provides high quality swim <br>instruction and
+                                    the ideal environment for learning <br>how to swim. Our swim instructors use
+                                    specialized <br>“muscle memory” teaching techniques that help our <br> students
+                                    progress at a quick rate. Grouped by age <br>and ability, our students benefit from
+                                    swim classes<br>that offer personalized attention. It's never too late to <br>learn
+                                    to swim!
+                                </p>
+
+
+                                <strong>Splashes Offers:</strong>
+                                <ul class="lessons">
+                                    <li><a href="#">Private Swimming Lessons</a> - All Locations</li>
+                                    <li><a href="#">Semi-Private Swimming Lessons</a> - All Locations</li>
+                                    <li><a href="#">Parent & Me (Baby) Swimming Lessons </a>- Select Locations</li>
+                                </ul>
+
+
+                                <p class="content">Select locations also offer additional swim programs <br>such as swim
+                                    competitions, swim teams, water <br>aerobics, aquatic therapy, swim camps and more!
+                                    To <br>learn more about the Splashes Family Swim <br>School near you, select a
+                                    location below.
+
+
+                                </p>Ready to sign up?</p>
+
+
+                                <!--Button-->
+                                <div class="container_text_btn">
+                                    <button class="text_button">
+                                        <a href="#" target="_blank">REGISTER NOW</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--Location-->
+
+
+                    <!--Background Image-->
+                    <div class="session_location_image">
+                        <div class="wrapper">
+                            <div class="container_location">
+                                <h3>Find a Splashes<br> Swim School<br> near you</h3>
+                                <h4>Family Swim School Locations</h4>
+                                <p class="content">Splashes Aquatics offers the finest professional swimming <br>lessons
+                                    from 21 swim schools and aquatic centers in <br>California and Denver.</p>
+
+
+
+
+                                <!--Button-->
+                                <div class="container_location_btn">
+                                    <button class="location_button">
+                                        <a href="#" target="_blank">Find a Location Near You</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <!--Map-->
+                            <div class="map">
+                                <img src="images/home/home-our-locations-map.png" alt="Location" width="600">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--Awards-->
+                    <div class="all-awards">
+                        <h2>Awards We've Won</h2>
+
+
+                        <div>
+                            <div>
+                                <img src="./images/awards/colorado-parenting-family-fav2021.png" alt="" />
+                                <img src="./images/awards/bay-area-parent-gold2020.png" alt="" />
+                                <img src="./images/awards/mla-swim-lessons-winner-2020-250x250.png" alt="" />
+                            </div>
+
+
+                            <div>
+                                <img src="./images/awards/colorado-parenting-family-fav2019.jpeg" alt="" />
+                                <img src="./images/awards/website-parenting-oc-2019.jpeg" alt="" />
+                                <img src="./images/awards/colorado-parenting-family-fav2020.png" alt="" />
+                            </div>
+
+
+                            <div>
+                                <img src="./images/awards/bay-area-parent-2019.jpeg" alt="" />
+                                <img src="./images/awards/gold-daisy-award-finalist-2018.jpeg" alt="" />
+                                <img src="./images/awards/best-of-la-kids-winner.jpeg" alt="" />
+                            </div>
+
+
+                            <div>
+                                <img class="lastimg" src="./images/awards/best-of-the-best-2018.jpeg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!--Footer-->
+                    <footer>
+                        <div class="footer">
+
+
+                            <!--Background Image-->
+                            <div class="footer_image">
+                                <div class="footer_logo">
+                                    <a href="#"><img src="images/footer/wave-small.png" alt="Splashes Footer Logo"
+                                            width="350"></a>
+                                </div>
+                                <!--logo-->
+
+
+                                <div class="social-wrapper">
+
+
+
+
+                                    <!--Navigation-->
+                                    <nav class="footer_nav">
+                                        <ul>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Locations</a></li>
+                                            <li><a href="#">FAQs</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                            <li><a href="#">Register/ Sign In</a></li>
+                                            <li><a href="#">Careers</a></li>
+                                        </ul>
+                                    </nav>
+
+
+                                    <!--Social Media-->
+                                    <div class="social">
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                        <a href="#" class="fa fa-instagram"></a>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        <a href="#" class="fa fa-yelp"></a>
+                                        <a href="#" class="fa fa-facebook"></a>
+                                        <a href="#" class="fa fa-youtube"></a>
+                                    </div>
+                                </div>
+
+
+                                <hr>
+
+
+                                <!--Location List-->
+                                <ul class="footer_location">
+                                    <li class="copy"><b>Orange County</b><a href="#"><br><br>(949) 450-0777</a></li>
+                                    <li class="copy"><b>San Diego County</b> <a href="#"><br><br>(760) 603-9400</a></li>
+                                    <li class="copy"><b>Los Angeles County</b> <a href="#"><br><br>(626) 836-1200</a>
+                                    </li>
+                                    <li class="copy"><b>Northern California</b> <a href="#"><br><br>(408) 279-1700</a>
+                                    </li>
+                                    <li class="copy"><b>Denver</b> <a href="#"><br><br>(720) 344-7700</a></li>
+                                </ul>
+
+
+                                <hr>
+
+
+                                <!--Sponsors-->
+                                <div class="social-wrapper">
+
+
+                                <div class="footer_sponsors">
+                                    <ul class="footer_sponsors">
+                                        <li class="image"><img src="images/sponsors/footer-sponsors-logo-1.png"
+                                                alt="united states swim school sponsor"></li>
+                                        <li class="image"><img src="images/sponsors/footer-sponsors-logo-2.png"
+                                                alt="NPDA sponsor"></li>
+                                        <li class="image"><img src="images/sponsors/footer-sponsors-logo-3.png"
+                                                alt="ISSA sponsor"></li>
+                                        <li class="image"><img src="images/sponsors/footer-sponsors-logo-4.png"
+                                                alt="STOP DROWNING NOW sponsor"></li>
+                                    </ul>
+                                </div>
+
+
+                                    <!--disclaimer-->
+                                    <div class="disclaimer"> &copy; 2022 Splashes. <br> All Rights Reserved</div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                        <script
+                            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="modal.js"></script>
+
+</body>
+
+
 </html>
 
