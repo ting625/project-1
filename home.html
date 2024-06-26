@@ -143,18 +143,18 @@
         </div>
     </header>
 
-    <!-- Modal -->
+    <!-- Sign-up Modal -->
     <div id="modal" class="modal fade modal-con" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <img src="images/shark-full.png" alt="" class="modal-img" />
-                    <h5 class="modal-title" id="registerModalLabel">Registration</h5>
+                    <h5 class="modal-title" id="registerModalLabel">SIGN IN</h5>
                     <button type="button" class="btn-close" onclick="closeModal()" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div id="loginForm">
-                        <label for="">Username<span>*</span></label>
+                        <label for="">Email<span>*</span></label>
                         <input type="email" />
                         <br />
                         <label for="">Password<span>*</span></label>
@@ -248,7 +248,7 @@
             </div>
         </div>
 
-        <!-- Location -->
+        <!-- Find a Splashes Location -->
         <div class="session_location_image">
             <div class="wrapper">
                 <div class="container_location">
@@ -264,7 +264,7 @@
                         </button>
                     </div>
                 </div>
-                <!-- Map -->
+                <!-- Map Image-->
                 <div class="map">
                     <img src="images/home/home-our-locations-map.png" alt="Location" width="600">
                 </div>
@@ -358,10 +358,10 @@
                                     alt="STOP DROWNING NOW sponsor"></li>
                         </ul>
                     </div>
-                </div>
                 <!-- Disclaimer -->
                 <div class="disclaimer"> &copy; 2022 Splashes. <br> All Rights Reserved</div>
-            </div>
+                </div>
+        </div>
         </div>
     </footer>
 
@@ -371,27 +371,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!-- Custom Script -->
-    <script>
-        function openModal() {
-            $('#modal').modal('show');
-        }
-
-        function closeModal() {
-            $('#modal').modal('hide');
-        }
-
-        function toggleForm() {
-            const loginForm = document.getElementById("loginForm");
-            const signupForm = document.getElementById("signupForm");
-
-            if (loginForm.style.display !== "none") {
-                loginForm.style.display = "none";
-                signupForm.style.display = "block";
-            } else {
-                loginForm.style.display = "block";
-                signupForm.style.display = "none";
-            }
-        }
-    </script>
+    <script src="modal.js"> </script>
 </body>
 </html>

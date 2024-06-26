@@ -1,3 +1,5 @@
+/* Header and Footer CSS */
+
 /* style Header area */
 * {
     margin: 0px;
@@ -154,7 +156,7 @@ header {
 }
 
 
-.button {
+.button{
     position: relative;
     line-height: 20px;
     background-color:#ffffff;
@@ -353,13 +355,44 @@ hr {
     border: 0.3px solid #cccccc;
 }
 
+
+/*style sign-up modal */
+
 .modal-img {
 height: 150px;
 width: 150px;
 margin-left: -80px;
 margin-top: -60px;
-
 }
+
+
+button, select {
+    text-decoration: none;
+    color: #03B1F4;
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px !important;
+}
+
+button, select a{
+    position: relative;
+    line-height: 10px;
+    background-color:#ffffff;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    border-radius: 20px !important;
+    padding:10px 15px;
+    cursor: pointer;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: red;
+}
+
+
+
 
 
 
