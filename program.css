@@ -25,7 +25,7 @@
 #lessons {
     padding: 30px;
     max-width: 1200px;
-    margin: auto;
+    margin: 0;
 }
 
 #lessons h1 {
@@ -101,7 +101,7 @@
 #locations {
     padding: 30px;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 ;
     text-align: left;
 }
 
