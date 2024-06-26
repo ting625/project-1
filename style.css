@@ -353,6 +353,13 @@ hr {
     border: 0.3px solid #cccccc;
 }
 
+.modal-img {
+height: 150px;
+width: 150px;
+margin-left: -80px;
+margin-top: -60px;
+
+}
 
 
 
