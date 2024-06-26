@@ -391,7 +391,31 @@ label {
     color: red;
 }
 
+/* MEDIA QUERIES */
 
+@media screen and (max-width: 767.5px) {
+    
+    .social-wrapper {
+        flex-direction: column;
+    }
+
+
+    .footer_sponsors {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+    .footer_location {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style-type: none;
+        padding: 20px 50px;
+        font-size: 14px;
+    }
+}
 
 
 
