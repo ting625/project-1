@@ -1,6 +1,6 @@
-/* Header and Footer CSS */
+/* Header & Footer Style --------------------------- */
 
-/* style Header area */
+/* Header area */
 * {
     margin: 0px;
     padding: 0px;
@@ -144,7 +144,7 @@ header {
 }
 
 
- /* style Header sign-in button */
+ /* Header sign-in button */
 
 
 .button a {
@@ -168,7 +168,7 @@ header {
 }
 
 
-/* style footer area */
+/* Footer area */
 
 
 .footer_image {
@@ -199,7 +199,7 @@ header {
 }
 
 
-/*style footer social media icons */
+/*Footer social media icons */
 
 
 footer .social .fa {
@@ -261,7 +261,7 @@ footer .social {
 }
 
 
-/*style footer navigation*/
+/*Footer navigation*/
 
 
 .footer_nav {
@@ -299,7 +299,7 @@ footer .social {
 }
 
 
-/*style footer location list*/
+/*Footer location list*/
 
 
 .footer_location {
@@ -326,7 +326,7 @@ footer .social {
 }
 
 
-/*style footer sponsors*/
+/*Footer sponsors*/
 
 
 .footer_sponsors {
@@ -348,7 +348,7 @@ footer .social {
 }
 
 
-/*style footer horizontal line */
+/*Footer horizontal line */
 
 
 hr {
@@ -356,7 +356,7 @@ hr {
 }
 
 
-/*style sign-up modal */
+/*Sign-up modal */
 
 .modal-img {
 height: 150px;

@@ -1,32 +1,19 @@
-.text {
-  margin-top: 10%;
-  width: 37%;
-}
-.btn2 {
-  color: #fff;
-  background-color: #0378f5;
-  font-weight: 700;
-  width: 200px;
-  padding: 10px;
-  border-radius: 50px;
-  margin-left: 100px;
-}
+/* About Page Style --------------------------- */
 
-.btn {
-  width: 300px;
-  background-color: #fff;
-}
-
-.sidebyside {
-  background-image: url("images/home-our-locations-bg.jpeg");
-  display: flex;
-  background-position: center;
-  margin: auto;
-  display: flex;
-  width: 84%;
-  margin-top: 10px;
+/* Hero Section Styles */
+.hero-image {
+  background: url('images/contact-hero.jpeg') no-repeat center center;
   background-size: cover;
+  height: 400px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin: 0; 
 }
+
 
 /* Style for text */
 .text3 {
@@ -50,147 +37,15 @@
   margin-left: 30%;
 }
 
-/* Style for image */
-.img3 {
-  flex: 1;
-  text-align: center;
-  height: auto;
-}
-
-/* Make image responsive */
-img {
-  max-width: 100%;
-
-  height: auto;
-}
-
 .content-main {
   margin-left: 5%;
   margin-right: 5%;
 }
 */
 
-/*  */
-* {
-  list-style: none;
-}
-.top-img h2 {
-  margin-top: -15%;
-  margin-bottom: 10%;
-  color: rgb(80, 67, 67);
-  font-weight: 700;
-}
-
-.top-img img {
-  width: 100%;
-}
-header .myreg {
-  /* border: 1px solid red; */
-  width: 14vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
-}
-header button {
-  background-color: #ffffff;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  height: 3vw;
-  width: 10vw;
-  color: #26aef2;
-  font-size: 1vw;
-  border-radius: 1.5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.more-words {
-  width: 80vw;
-  margin: 0 auto;
-}
-
-.more-words h3 {
-  font-size: 3vw;
-  text-align: center;
-  margin: 3.4vw 0;
-  margin-top: 0.2vw;
-}
-.more-words p {
-  font-size: 1.5vw;
-  line-height: 3vw;
-  margin-bottom: 3vw;
-}
-.more-words h4 {
-  font-size: 1.7vw;
-}
-.more-words ul {
-  font-size: 1.6vw;
-  color: #68c5f5;
-  line-height: 2.3vw;
-  text-decoration: underline;
-}
-
-.footerx {
-  background: url(../images/footer-bg.jpeg);
-  padding: 2vw 10vw;
-  box-sizing: border-box;
-  padding-top: 8vw;
-  margin-top: 5vw;
-  text-align: center;
-}
-.more-words {
-  margin-top: 200px;
-}
-
-.footerx > img {
-  margin: 0 auto;
-}
-
-.footerx .all-icon {
-  margin-top: 4vw;
-  margin-bottom: 3vw;
-}
-
-.footerx .all-icon ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-weight: "黑体";
-  font-size: 1.3vw;
-  text-decoration: underline;
-}
-
-.footerx .title-and-number {
-  border-top: 2px solid #cdc9c9;
-  border-bottom: 2px solid #c5c1c1;
-
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 3vw 0;
-}
-.footerx .title-and-number div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.footerx .title-and-number .number {
-  margin-top: 0.51vw;
-  color: #6a6969;
-  text-decoration: underline;
-}
-.footerx .four-iconsx {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2vw 0;
-}
+/* Philosophy Style*/
 
 .our-philosophy {
-  background: url(../images/about-our-philosophy-bg.jpeg);
   background-size: 100% 100%;
   padding-bottom: 4vw;
   border: 1px solid #fff;
@@ -210,10 +65,19 @@ header button {
   text-align: center;
 }
 
-.pp2 {
-  background: url(../images/about-we-do-a-pretty-good-job-bg.jpeg);
+.pp1 {
+  background: url(images/about-our-philosophy-bg.jpeg);
   background-size: 100% 160%;
+  padding: 20px;
 }
+
+.pp2 {
+  background: url(images/about-we-do-a-pretty-good-job-bg.jpeg);
+  background-size: 100% 160%;
+  padding: 20px;
+}
+
+/* All-awards Style*/
 
 .all-awards h2 {
   text-align: center;
@@ -234,45 +98,3 @@ header button {
   width: 8vw;
 }
 
-/* social media linked */
-footer #nondisclaimer .copy {
-  padding: 3.5em 3.5em 3.5em 13em;
-  float: left;
-  font-size: 0.9em;
-}
-footer #nondisclaimer .social {
-  padding: 2.5em;
-  margin-right: 9.25em;
-  float: right;
-}
-footer #disclaimer {
-  clear: both;
-}
-footer #disclaimer p {
-  font-size: 0.85em;
-  text-align: center;
-}
-footer #nondisclaimer .social .fa {
-  padding: 15px;
-  font-size: 15px;
-  width: 15px;
-  text-align: center;
-  text-decoration: none;
-  margin: 0 4px;
-  border-radius: 50%;
-}
-footer #nondisclaimer .social .fa:hover {
-  opacity: 0.7;
-}
-footer #nondisclaimer .social .fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-footer #nondisclaimer .social .fa-twitter {
-  background: #55acee;
-  color: white;
-}
-footer #nondisclaimer .social .fa-instagram {
-  background: #125688;
-  color: white;
-}

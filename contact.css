@@ -1,7 +1,6 @@
-/* Contact Us Style codee is from here--------------------------- */
+/* Contact Us Style --------------------------- */
+
 /* Hero Section Styles */
-
-
 .hero-image {
     background: url('images/contact-hero.jpeg') no-repeat center center;
     background-size: cover;
@@ -106,7 +105,7 @@
 
 
 /* Add this to the existing CSS code */
-/* Locations Section Styles */
+/* Locations Section Styles 
 .locations {
     padding: 20px;
     text-align: center;
@@ -132,6 +131,7 @@
     background-color: #f9f9f9;
     border: 1px solid #ddd;
 }
+*/
 
 
 
