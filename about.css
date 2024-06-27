@@ -2,7 +2,7 @@
 
 /* Hero Section Styles */
 .hero-image {
-  background: url('images/contact-hero.jpeg') no-repeat center center;
+  background: url('images/contact-hero.jpeg') no-repeat;
   background-size: cover;
   height: 400px; 
   display: flex;
@@ -14,36 +14,25 @@
   margin: 0; 
 }
 
-
-/* Style for text */
-.text3 {
-  margin-top: 10%;
-  margin-left: 20px;
-  color: #fff;
-
-  width: 60%;
-
-  text-align: center;
+.hero h1 {
+  font-size: 48px;
+  color: #FFFFFF;
+  font-family: 'Bodoni Moda', serif;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0; /* Ensure no margin */
+  font-weight: 600;
 }
-.swim {
-  width: 60%;
-  margin-left: 20%;
-  font-size: 50px;
-  font-weight: 700;
-}
-.family {
-  font-size: 30px;
-  width: 40%;
-  margin-left: 30%;
-}
-
-.content-main {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-*/
 
 /* Philosophy Style*/
+
+h2 {
+  font-size: 32px;
+  color: #1A2E38;
+  font-family: 'Bodoni Moda', serif;
+  margin-top: 20px;
+}
+
 
 .our-philosophy {
   background-size: 100% 100%;
@@ -52,14 +41,19 @@
 }
 
 .our-philosophy h2 {
-  font-size: 3vw;
   text-align: center;
   margin: 3vw 0 1vw 0;
+  font-size: 32px;
+  color: #1A2E38;
+  font-family: 'Bodoni Moda', serif;
+  margin-top: 20px;
+  font-weight: 600;
 }
 
 .our-philosophy p {
-  font-size: 1.3vw;
-  line-height: 2vw;
+  margin-bottom: 6px;
+  line-height: 1.5;
+  font-weight: lighter;
 }
 .our-philosophy .p-text {
   text-align: center;
@@ -77,12 +71,22 @@
   padding: 20px;
 }
 
+.p-text-2 {
+color: #03B1F4;
+text-decoration: underline;
+text-align: center;
+margin: 3vw 0 5vw 0;
+}        
+
 /* All-awards Style*/
 
 .all-awards h2 {
   text-align: center;
-  font-size: 3vw;
+  font-size: 32px;
   margin: 3vw 0;
+  color: #1A2E38;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 600;
 }
 
 .all-awards {
@@ -91,9 +95,11 @@
   align-items: center;
   flex-direction: column;
 }
+
 .all-awards img {
   margin: 1px 20px;
 }
+
 .all-awards .lastimg {
   width: 8vw;
 }

@@ -1,3 +1,6 @@
+/* Swimming Lessons & Swim Programs & Adult Programs Style --------------------------- */
+
+
 /* Hero Section */
 #hero {
     background: url('images/which-lesson-is-best.jpeg') no-repeat center center;
@@ -19,6 +22,7 @@
     padding: 20px;
     border-radius: 10px;
     margin: 0; /* Ensure no margin */
+    font-weight: 600;
 }
 
 /* Lessons Section */
@@ -74,6 +78,7 @@
     padding: 20px;
     border-radius: 10px;
     margin: 0; /* Ensure no margin */
+    font-weight: 600;
 }
 
 /* Skills Section */
@@ -165,6 +170,7 @@
     padding: 20px;
     border-radius: 10px;
     margin: 0; /* Ensure no margin */
+    font-weight: 600;
 }
 
 /* Skills Section */

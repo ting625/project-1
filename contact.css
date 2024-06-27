@@ -2,7 +2,7 @@
 
 /* Hero Section Styles */
 .hero-image {
-    background: url('images/contact-hero.jpeg') no-repeat center center;
+    background: url('images/contact-hero.jpeg') no-repeat;
     background-size: cover;
     height: 400px; 
     display: flex;
@@ -22,6 +22,7 @@
     padding: 20px;
     border-radius: 10px;
     margin: 0; /* Ensure no margin */
+    font-weight: 600;
 }
 
 
@@ -33,14 +34,14 @@
 
 
 .contact-info p {
-    font-family: 'Arial', sans-serif; /* Change font style as needed */
-    font-size: 25px; /* Adjust font size for readability */
+    font-family: 'Bodoni Moda', serif; /* Change font style as needed */
+    /* font-size: 25px; Adjust font size for readability */
     line-height: 1.6; /* Increase line height for better spacing */
     margin: 20px 0; /* Add space above and below the paragraph */
     margin-bottom: 40px; /* Increase space below the paragraph */
     max-width: 800px; /* Optional: limit the width for better readability */
     margin-left: auto;
-    font-weight: bold;
+    /*font-weight: bold; */
     margin-right: auto;
     color: #616060; /* Adjust color for better visibility */
 }
@@ -91,7 +92,7 @@
 .contact-card a {
     margin-top: 10px; /* Space between image and link */
     text-decoration: underline; /* Add underline to the link */
-    color: rgb(0, 222, 252); /* Blue color for the link */
+    color: #03B1F4; /* Blue color for the link */
     font-weight: bold;
     font-size: 16px; /* Adjust font size as needed */
 }

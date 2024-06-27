@@ -14,10 +14,12 @@
 
 h1 {
     text-align: center;
-    font-size: 50px;
     color:#ffffff;
-    letter-spacing: 0.1px;
     padding-bottom: 20px;
+    font-size: 48px;
+    font-family: 'Bodoni Moda', serif;
+    border-radius: 10px;
+    font-weight: 900;
 }
 
 
@@ -221,8 +223,11 @@ h4{
 
 .all-awards h2 {
     text-align: center;
-    font-size: 3vw;
+    font-size: 32px;
     margin: 3vw 0;
+    color: #1A2E38;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 600;
   }
  
   .all-awards {
@@ -231,9 +236,11 @@ h4{
     align-items: center;
     flex-direction: column;
   }
+
   .all-awards img {
     margin: 1px 20px;
   }
+
   .all-awards .lastimg {
     width: 8vw;
   }
