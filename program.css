@@ -5,15 +5,16 @@
 #hero {
     background: url('images/which-lesson-is-best.jpeg') no-repeat center center;
     background-size: cover;
-    height: 400px; 
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
     position: relative;
-    margin: 0; 
+    margin: 0;
 }
+
 
 #hero h1 {
     font-size: 48px;
@@ -25,6 +26,7 @@
     font-weight: 600;
 }
 
+
 /* Lessons Section */
 #lessons {
     padding: 30px;
@@ -33,21 +35,26 @@
     margin-right: auto;
 }
 
+
 #lessons h1 {
     text-align: center;
-    font-size: 48px;
+    font-size: 32px;
     color: #1A2E38;
     font-family: 'Bodoni Moda', serif;
     margin-bottom: 20px;
     margin-top: 0; /* Ensure no margin */
+    font-weight: 800;
 }
 
+
 #lessons h2 {
-    font-size: 32px;
+    font-size: 22px;
     color: #1A2E38;
     font-family: 'Bodoni Moda', serif;
     margin-top: 20px;
+    font-weight: 600;
 }
+
 
 #lessons p {
     color: #757576;
@@ -71,6 +78,7 @@
     margin-right: auto;
 }
 
+
 #programs h1 {
     font-size: 48px;
     color: #FFFFFF;
@@ -81,6 +89,7 @@
     font-weight: 600;
 }
 
+
 /* Skills Section */
 #skills {
     padding: 30px;
@@ -89,7 +98,9 @@
     margin-left: auto;
     margin-right: auto;
 
+
 }
+
 
 #skills h1 {
     font-size: 32px;
@@ -97,7 +108,9 @@
     font-family: 'Bodoni Moda', serif;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 800;
 }
+
 
 #skills p {
     color: #757576;
@@ -106,6 +119,7 @@
     font-weight: lighter;
     align-items: center;
 }
+
 
 /* Locations Section */
 #locations {
@@ -117,6 +131,7 @@
     margin-right: auto;
 }
 
+
 #locations h2 {
     font-size: 20px;
     color: #444444;
@@ -125,17 +140,20 @@
     margin-bottom: 20px;
 }
 
+
 #locations ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: left
-    
+   
 }
+
 
 #locations li {
     margin-bottom: 10px;
 }
+
 
 #locations a {
     color: #03B1F4;
@@ -145,9 +163,11 @@
     ;
 }
 
+
 #locations a:hover {
     text-decoration: underline;
 }
+
 
 /* Hero Section */
 #adult {
@@ -163,6 +183,7 @@
     margin: 0;
 }
 
+
 #adult h1 {
     font-size: 48px;
     color: #FFFFFF;
@@ -172,6 +193,7 @@
     margin: 0; /* Ensure no margin */
     font-weight: 600;
 }
+
 
 /* Skills Section */
 #lap {
@@ -183,13 +205,16 @@
     margin-right: auto;
 }
 
+
 #lap h1 {
     font-size: 32px;
     color: #444444;
     font-family: 'Bodoni Moda', serif;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 800;
 }
+
 
 #lap p {
     color: #757576;
@@ -200,6 +225,7 @@
     text-align: left;
 }
 
+
 /* Locations Section */
 #findlap {
     padding: 30px;
@@ -209,6 +235,7 @@
     margin-right: auto;
 }
 
+
 #findlap h2 {
     font-size: 20px;
     color: #444444;
@@ -216,17 +243,21 @@
     margin-bottom: 20px;
 }
 
+
 #findlap ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: left
 
+
 }
+
 
 #findlap li {
     margin-bottom: 10px;
 }
+
 
 #findlap a {
     color: #03B1F4;
@@ -234,22 +265,34 @@
     font-weight: lighter;
 }
 
+
 #findlap a:hover {
     text-decoration: underline;
 }
 
+
 /* Highlighted Text */
 .highlight {
-    font-weight: bold;
+    font-weight: 400;
     color: #03B1F4; /* Use the specific color you want for highlighting */
+    text-decoration: underline;
+    cursor: pointer;
 }
+
 
 #lessons a {
     color: #03B1F4;
     font-weight: lighter;
+    text-decoration: underline;
+    cursor: pointer;
 }
+
 
 #lessons a:hover {
     text-decoration: underline;
 }
+
+
+
+
 
