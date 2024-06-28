@@ -1,18 +1,20 @@
 /* About Page Style --------------------------- */
 
+
 /* Hero Section Styles */
 .hero-image {
   background: url('images/contact-hero.jpeg') no-repeat;
   background-size: cover;
-  height: 400px; 
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   text-align: center;
   position: relative;
-  margin: 0; 
+  margin: 0;
 }
+
 
 .hero h1 {
   font-size: 48px;
@@ -24,7 +26,9 @@
   font-weight: 600;
 }
 
+
 /* Philosophy Style*/
+
 
 h2 {
   font-size: 32px;
@@ -34,11 +38,14 @@ h2 {
 }
 
 
+
+
 .our-philosophy {
   background-size: 100% 100%;
   padding-bottom: 4vw;
   border: 1px solid #fff;
 }
+
 
 .our-philosophy h2 {
   text-align: center;
@@ -50,6 +57,7 @@ h2 {
   font-weight: 600;
 }
 
+
 .our-philosophy p {
   margin-bottom: 6px;
   line-height: 1.5;
@@ -59,17 +67,20 @@ h2 {
   text-align: center;
 }
 
+
 .pp1 {
   background: url(images/about-our-philosophy-bg.jpeg);
   background-size: 100% 160%;
   padding: 20px;
 }
 
+
 .pp2 {
   background: url(images/about-we-do-a-pretty-good-job-bg.jpeg);
   background-size: 100% 160%;
   padding: 20px;
 }
+
 
 .p-text-2 {
 color: #03B1F4;
@@ -78,7 +89,9 @@ text-align: center;
 margin: 3vw 0 5vw 0;
 }        
 
-/* All-awards Style*/
+
+/* Award Style*/
+
 
 .all-awards h2 {
   text-align: center;
@@ -89,18 +102,28 @@ margin: 3vw 0 5vw 0;
   font-weight: 600;
 }
 
+
 .all-awards {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 40px;
 }
+
 
 .all-awards img {
   margin: 1px 20px;
 }
 
+
 .all-awards .lastimg {
   width: 8vw;
 }
+
+
+
+
+
+
 
