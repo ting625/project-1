@@ -313,12 +313,14 @@ footer .social {
 
 
 /*Footer Horizontal Line */
+
 hr {
     border: 0.3px solid #cccccc;
 }
 
 
 /*Sign-up Modal */
+
 .modal-img {
 height: 150px;
 width: 150px;

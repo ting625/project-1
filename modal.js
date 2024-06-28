@@ -1,4 +1,4 @@
-<!-- Custom Script -->
+/* Custom Script */
 
     function openModal() {
         $('#modal').modal('show');

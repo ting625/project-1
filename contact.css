@@ -4,16 +4,15 @@
 .hero-image {
     background: url('images/contact-hero.jpeg') no-repeat;
     background-size: cover;
-    height: 400px; 
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
     position: relative;
-    margin: 0; 
+    margin: 0;
 }
-
 
 .hero h1 {
     font-size: 48px;
@@ -25,13 +24,11 @@
     font-weight: 600;
 }
 
-
 /* Contact Info Section Styles */
 .contact-info {
     padding: 0;
     text-align: center;
 }
-
 
 .contact-info p {
     font-family: 'Bodoni Moda', serif; /* Change font style as needed */
@@ -46,7 +43,6 @@
     color: #616060; /* Adjust color for better visibility */
 }
 
-
 /* Contact Options Styles */
 .contact-options {
     display: grid;
@@ -59,7 +55,6 @@
     max-width: 60%; /* Optional: limit the max width of the grid */
     grid-template-columns: repeat(auto-fill, 140px);
 }
-
 
 .contact-card {
     background-color: white;
@@ -76,18 +71,15 @@
     justify-content: center;
 }
 
-
 .contact-card:hover {
     transform: translateY(-10px); /* Slight lift on hover */
 }
-
 
 .contact-card img {
     max-width: 80px; /* Adjust size to fit inside the card */
     height: auto;
     margin-bottom: 20px; /* Space between image and link */
 }
-
 
 .contact-card a {
     margin-top: 10px; /* Space between image and link */
@@ -98,41 +90,6 @@
 }
 
 
-/* Existing CSS Code */
-
-
-/* Add this to the existing CSS code */
-/* Existing CSS Code */
-
-
-/* Add this to the existing CSS code */
-/* Locations Section Styles 
-.locations {
-    padding: 20px;
-    text-align: center;
-}
-
-
-.location {
-    margin: 20px 0;
-}
-
-
-.location h3 {
-    cursor: pointer;
-    color: #007BFF;
-}
-
-
-.location-details {
-    display: none;
-    text-align: left;
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-}
-*/
 
 
 
