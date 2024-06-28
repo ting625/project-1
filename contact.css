@@ -48,11 +48,11 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
     grid-template-rows: repeat(2, auto); /* 2 rows */
-    gap: 40px; /* Equal space between boxes */
+    gap: 66px; /* Equal space between boxes */
     justify-content: center; /* Center the grid */
     margin: 0 auto; /* Center the table */
-    padding: 40px 20px;
-    max-width: 60%; /* Optional: limit the max width of the grid */
+    padding: 30px 20px;
+    max-width: 70%; /* Optional: limit the max width of the grid */
     grid-template-columns: repeat(auto-fill, 140px);
 }
 

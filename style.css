@@ -359,7 +359,7 @@ label {
 /* MEDIA QUERIES */
 
 
-@media screen and (max-width: 767.5px) {
+@media screen and (max-width: 768px) {
    
     .social-wrapper {
         flex-direction: column;
